@@ -1,0 +1,26 @@
+name: esp32_remote
+description: ESP32 环境监测远程控制 APP
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # HTTP 客户端（直接访问 ESP32 AP 热点）
+  # http: ^1.3.0
+  http: ^1.2.0
+  # 状态管理
+  provider: ^6.1.0
+  # 图标
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
